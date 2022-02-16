@@ -2,7 +2,7 @@
 <body>
 
 <h2>Registration Form</h2>
-<form action="result/result.php" method="get">
+<form action="submit.php" method="get">
 <table>
 <tr>
 <td> Name :</td> 
@@ -40,9 +40,8 @@
 </td>
 </tr>
 </table>
-<input type="submit" value="Submit">
+<input type="submit" name="submit">
 <input type="reset" value="Reset">
 </form>
 </body>
 </html>
-
